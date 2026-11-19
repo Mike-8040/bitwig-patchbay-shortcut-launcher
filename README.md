@@ -5,7 +5,7 @@
 
 ## Why I Built This
 
-Because I prefer to avoid unnecessary friction and want fast, direct access, I built this lightweight tool so that after patching Bitwig Studio once with [Patchbay](https://github.com/shaboogen-dev/Patchbay), you can launch Bitwig directly through the generated shortcut without ever needing to open Patchbay again. You can place the shortcut in the Windows Start Menu, on your Desktop, or move it to any other location you like.
+Because I prefer to avoid unnecessary friction and want fast, direct access, I built this (well my chat slave did it mostly tbh) lightweight tool so that after patching Bitwig Studio once with [Patchbay](https://github.com/shaboogen-dev/Patchbay), you can launch Bitwig directly through the generated shortcut without ever needing to open Patchbay again. You can place the shortcut in the Windows Start Menu, on your Desktop, or move it to any other location you like.
 
 ![Bitwig Patchbay Shortcut Launcher](images/bitwig-patchbay-launcher.jpg)
 
