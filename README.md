@@ -1,11 +1,11 @@
 # Bitwig Patchbay Shortcut Launcher
 
 > [!IMPORTANT]
-> **Disclaimer:** This tool is an independent, unofficial community project by Mike8040 — it has **nothing to do with Bitwig or Bitwig GmbH** and is **not** affiliated with, endorsed by, or created in cooperation with Bitwig GmbH in any way.
+> **Disclaimer:** This tool is an independent, unofficial community project - it has **nothing to do with Bitwig or Bitwig GmbH** and is **not** affiliated with, endorsed by, or created in cooperation with Bitwig GmbH in any way.
 
 ## Why I Built This
 
-Because I prefer to avoid unnecessary friction and want fast, direct access, I built this (well my chat slave did it mostly tbh) lightweight tool so that after patching Bitwig Studio once with [Patchbay](https://github.com/shaboogen-dev/Patchbay), you can launch Bitwig directly through the generated shortcut without ever needing to open Patchbay again. You can place the shortcut in the Windows Start Menu, on your Desktop, or move it to any other location you like.
+Because I prefer to avoid unnecessary friction and want fast, direct access, this lightweight tool came into life so that after patching Bitwig Studio once with [Patchbay](https://github.com/shaboogen-dev/Patchbay), you can launch Bitwig directly through the generated shortcut without ever needing to open Patchbay again. You can place the shortcut in the Windows Start Menu, on your Desktop, or move it to any other location you like.
 
 ![Bitwig Patchbay Shortcut Launcher](images/bitwig-patchbay-launcher.jpg)
 
@@ -23,6 +23,6 @@ Because I prefer to avoid unnecessary friction and want fast, direct access, I b
 
 ## Requirements & Notes
 
-* **Platform:** Windows (x64), standalone single-file executable (no separate .NET runtime required).
+* **Platform:** Windows (x64), standalone single-file executable (no separate .NET runtime required). Other platforms may follow 
 * **Prerequisites:** Requires an existing [Patchbay](https://github.com/shaboogen-dev/Patchbay) setup with mods configured once beforehand.
 * **Windows SmartScreen:** Because the executable is not digitally signed with a commercial code-signing certificate, Windows SmartScreen may show an *"Unknown publisher"* prompt on first launch (click **More info** → **Run anyway**). You can verify the download integrity against the SHA-256 checksum above (`certutil -hashfile Bitwig-Patchbay-Launcher.exe SHA256` or `Get-FileHash`).
